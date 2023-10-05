@@ -1,0 +1,164 @@
+:root{
+    --primary-color:#1D9AD6;
+    --primary-button-color:#2BB673;
+    --hero-section-background-color: linear-gradient(275deg, rgba(76, 112, 222, 0.1) -9.26%, rgba(28, 156, 210, 0.1) 47.33%, rgba(15, 170, 163, 0.1) 105.11%);
+    --background-secondary-color:#F3F4F8;
+    --background-primary-color:linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), linear-gradient(250deg, #27A5DB 0.13%, #2E5BA6 77.13%);
+    --font-primary-color:#0D0F11;
+    --color-white: #FFF;
+    --color-black:#000;
+    --color-red:#F4857A;
+    --dark-dark-900:#1A1A24;
+    --color-light-blue:#1998D5;
+    --color-border-light:#ffffff4d;
+    --color-drop-shadow:linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), linear-gradient(250deg, rgba(39, 165, 219, 0.1) 0.13%, rgba(46, 91, 166, 0.1) 77.13%);
+    --color-marketing:#A93AA3;
+    --primary-navy-navy-80:#2E4797;
+    --color-date:#8E929B;
+}   
+
+
+.font-heading{
+    color: var(--font-primary-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: calc(64rem /16);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64.9px;
+}
+.font-heading-secondary{
+    color: var(--font-primary-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: calc(28rem /16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40.72px;
+}
+.font-menu{
+    color: var(--font-primary-color);
+    font-family: Roboto;
+    font-size: calc(20rem /16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.301px; /* 151.503% */
+    letter-spacing: 0.494px;
+    opacity: 0.8;
+}
+.font-btn-primary{
+    color: var(--color-white);
+    font-family: Roboto;
+    font-size: calc(16rem /16);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.348px;
+}
+.font-btn-secondary{
+    color: var(--primary-button-color);
+    font-family: Roboto;
+    font-size: calc(16rem /16);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.348px;
+}
+.font-uppercase{
+    text-transform: uppercase;
+}
+.font-title{
+    color: var(--color-black);
+    font-family: Roboto;
+    font-size: calc(40rem/16);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+.font-title-secondary {
+    color: var(--dark-dark-900);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: calc(40rem / 16);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39.934px;
+}
+.font-link{
+    color: var(--primary-color);
+    font-family: Roboto;
+    font-size: calc(18rem / 16);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.985px;
+}
+.font-story-primary{
+    color: var(--color-white);
+    font-family: Roboto;
+    font-size: calc(24rem / 16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+.font-story-primary-bold{
+    font-weight: 700;
+}
+.font-underline {
+    text-decoration: underline var(--color-red);
+    text-underline-offset: 4px;
+}
+.font-companies-like-you{
+    color: var(--color-light-blue);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: calc(27rem / 16);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.934px;
+}
+.font-give-a-try-title{
+    color: var(--color-white);
+    font-family: Roboto;
+    font-size: calc(48rem /16);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64.871px;
+}
+.font-give-a-try-primary{
+    color: var(--color-white);
+    font-family: Roboto;
+    font-size: calc(20rem / 16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.394px;
+}
+.font-give-a-try-button{
+    color: var(--color-white);
+    text-align: center;
+    font-family: Roboto;
+    font-size: calc(24rem / 16);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.45px; /* 135.208% */
+    letter-spacing: 0.324px;
+}
+.font-sub-title{
+    font-family: Roboto;
+    font-size: calc(28rem /16);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.858px;
+}
+.font-author{
+    font-family: Roboto;
+    font-size: calc(18rem / 16);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.985px;
+}
+.font-date{
+    color:var(--color-date);
+    font-family: Roboto;
+    font-size: calc(18rem / 16);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22.985px;
+}
