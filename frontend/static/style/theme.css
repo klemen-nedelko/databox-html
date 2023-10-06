@@ -25,7 +25,7 @@
     font-size: calc(64rem /16);
     font-style: normal;
     font-weight: 800;
-    line-height: 64.9px;
+    line-height: calc(64rem /16);
 }
 .font-heading-secondary{
     color: var(--font-primary-color);
@@ -34,7 +34,7 @@
     font-size: calc(28rem /16);
     font-style: normal;
     font-weight: 400;
-    line-height: 40.72px;
+    line-height: calc(40rem /16);
 }
 .font-menu{
     color: var(--font-primary-color);
@@ -42,8 +42,8 @@
     font-size: calc(20rem /16);
     font-style: normal;
     font-weight: 400;
-    line-height: 30.301px; /* 151.503% */
-    letter-spacing: 0.494px;
+    line-height: calc(30rem /16);
+    letter-spacing: calc(1rem / 16);
     opacity: 0.8;
 }
 .font-btn-primary{
@@ -52,7 +52,7 @@
     font-size: calc(16rem /16);
     font-style: normal;
     font-weight: 500;
-    line-height: 26.348px;
+    line-height: calc(26rem /16);
 }
 .font-btn-secondary{
     color: var(--primary-button-color);
@@ -60,7 +60,7 @@
     font-size: calc(16rem /16);
     font-style: normal;
     font-weight: 500;
-    line-height: 26.348px;
+    line-height: calc(26rem /16)x;
 }
 .font-uppercase{
     text-transform: uppercase;
@@ -71,7 +71,7 @@
     font-size: calc(40rem/16);
     font-style: normal;
     font-weight: 600;
-    line-height: 60px;
+    line-height: calc(60rem /16)
 }
 .font-title-secondary {
     color: var(--dark-dark-900);
@@ -80,7 +80,7 @@
     font-size: calc(40rem / 16);
     font-style: normal;
     font-weight: 600;
-    line-height: 39.934px;
+    line-height: calc(39rem /16);
 }
 .font-link{
     color: var(--primary-color);
@@ -88,7 +88,7 @@
     font-size: calc(18rem / 16);
     font-style: normal;
     font-weight: 800;
-    line-height: 22.985px;
+    line-height: calc(22rem /16);
 }
 .font-story-primary{
     color: var(--color-white);
@@ -96,7 +96,7 @@
     font-size: calc(24rem / 16);
     font-style: normal;
     font-weight: 400;
-    line-height: 34px;
+    line-height: calc(34rem /16);
 }
 .font-companies-like-you{
     color: var(--color-light-blue);
@@ -105,7 +105,7 @@
     font-size: calc(27rem / 16);
     font-style: normal;
     font-weight: 700;
-    line-height: 39.934px;
+    line-height: calc(39rem /16);
 }
 .font-give-a-try-title{
     color: var(--color-white);
@@ -113,7 +113,7 @@
     font-size: calc(48rem /16);
     font-style: normal;
     font-weight: 500;
-    line-height: 64.871px;
+    line-height: calc(64rem /16);
 }
 .font-give-a-try-primary{
     color: var(--color-white);
@@ -121,7 +121,7 @@
     font-size: calc(20rem / 16);
     font-style: normal;
     font-weight: 400;
-    line-height: 28.394px;
+    line-height: calc(28rem /16);
 }
 .font-give-a-try-button{
     color: var(--color-white);
@@ -130,8 +130,8 @@
     font-size: calc(24rem / 16);
     font-style: normal;
     font-weight: 500;
-    line-height: 32.45px; /* 135.208% */
-    letter-spacing: 0.324px;
+    line-height: calc(32rem /16);
+    letter-spacing: 0.25rem;
 }
 .font-sub-title{
     color: var(--color-black);
@@ -139,14 +139,14 @@
     font-size: calc(28rem /16);
     font-style: normal;
     font-weight: 700;
-    line-height: 37.858px;
+    line-height: calc(37rem /16);
 }
 .font-author{
     font-family: Roboto;
     font-size: calc(18rem / 16);
     font-style: normal;
     font-weight: 800;
-    line-height: 22.985px;
+    line-height: calc(22rem /16);
 }
 .font-date{
     color:var(--color-date);
@@ -154,7 +154,7 @@
     font-size: calc(18rem / 16);
     font-style: normal;
     font-weight: 800;
-    line-height: 22.985px;
+    line-height: calc(22rem /16);
 }
 
 .font-story-primary-bold{
@@ -175,4 +175,7 @@
     padding-top: 11px;
     padding-right: 31px;
     padding-bottom: 11px;
+}
+.p-10{
+    padding: 10px;
 }
