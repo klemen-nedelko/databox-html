@@ -190,15 +190,15 @@
     padding-bottom: 162px;
 }
 .give-a-try {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 8px;
-  gap: 20px;
-  max-width: 1540px;
-  max-height: 549.632px;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), linear-gradient(250deg, #27A5DB 0.13%, #2E5BA6 77.13%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    gap: 20px;
+    max-width: 1540px;
+    max-height: 549.632px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), linear-gradient(250deg, #27A5DB 0.13%, #2E5BA6 77.13%);
 }
 .give-a-try-info{
     display: flex;
@@ -457,17 +457,3 @@
     }
 }
 
-/* Add media queries for high-resolution (retina) displays */
-@media (min-resolution: 192dpi) {
-    .btn {
-        background-image: url('path-to-high-res-image.png');
-        background-size: contain;
-    }
-
-    .article-image {
-        background-image: url('path-to-high-res-image.png');
-        background-size: cover;
-    }
-
-    /* Add more styles for high-res displays as needed */
-}
