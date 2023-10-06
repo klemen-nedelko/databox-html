@@ -448,7 +448,7 @@
         flex-wrap: wrap;
     }
     .sub-article-image{
-        width: auto;
+        max-width: 80%;
     }
     .give-a-try{
         flex-direction: column;
@@ -478,9 +478,6 @@
     .article-seperate-image-logo {
         flex-direction: column;
     }
-    .sub-article-image{
-        padding: 5px;
-    }
     .menu-list {
         flex-direction: column;
     }
@@ -491,7 +488,7 @@
 }
 @media (max-width: 425px) {
     .sub-article-image{
-        width: 100%;
+        width: 80%;
         padding: 5px;
     }
 }
