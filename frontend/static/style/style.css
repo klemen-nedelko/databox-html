@@ -293,6 +293,9 @@
     justify-content: center;
     gap: 39px;
 }
+.article{
+    max-width: 506px;
+}
 .sub-article-image-container{
     min-height: 287px;
     display: flex;
