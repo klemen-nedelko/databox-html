@@ -21,7 +21,7 @@
 .menu-list {
     display: flex;
     flex-direction: row;
-    gap:10px;
+    gap:31px;
 }
 .menu-list li {
     display: flex;
@@ -99,6 +99,7 @@
     display: flex;
     justify-content:center;
     align-items:center;
+    padding: 20px;
 }
 .article-link {
     padding-top: calc(21rem / 16);
@@ -390,6 +391,9 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .hero-companies > * {
+        padding: 10px; /* Adjust the value as needed */
+    }
     .partner-story{
         display: flex;   
     }
@@ -407,6 +411,12 @@
     }
     .article-image-absolute{
         position: relative;
+    }
+    .article-info{
+        padding: 20px;
+    }
+    .article-information{
+        padding: 20px
     }
     .story-article{
         display: flex;
