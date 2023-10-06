@@ -44,6 +44,9 @@
     min-width: 135.694px;
     min-height: 43.475px;
     flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn-primary-inner-blank {
     background-color: transparent;
@@ -291,7 +294,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    width: 100%;
 }
 .sub-article-text{
     padding-top: 12px;
@@ -362,7 +364,9 @@
     .navbar {
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .nav-action {
         align-items: start;
@@ -456,4 +460,3 @@
         padding-left: 20px;
     }
 }
-
