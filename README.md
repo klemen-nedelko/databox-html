@@ -4,14 +4,14 @@ The project uses express server to run static html code, that removes CORS probl
 
 Go into frontend folder
 
-cd frontend
+```cd frontend```
 
 Install node modules
 
-npm install
+```npm install```
 
 Start the project
 
-npm start
+```npm start```
 
 The frontend part of the server is running on port 8080 (http://localhost:8083).
