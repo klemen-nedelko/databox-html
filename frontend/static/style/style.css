@@ -185,6 +185,7 @@
     flex-direction: row;
     gap: 32px;
     padding-bottom: 154px;
+    flex-wrap: wrap;
 }
 .section-give-a-try{
     padding-top: 120px;
@@ -429,9 +430,6 @@
     .sub-article{
         flex-direction: column;
     }
-    .category-options{
-        flex-direction: column;
-    }
     .sub-article-image{
         width:auto;
     }
@@ -448,5 +446,10 @@
     }
     .sub-article-text{
         padding-left: 20px;
+    }
+}
+@media (max-width: 789px) {
+    .category-options{
+        flex-direction: column;
     }
 }
